@@ -20,12 +20,32 @@ A responsive password validation tool built with **React** and **Vite**. This ap
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
-- [Tailwind CSS](https://tailwindcss.com/) *(optional, if used)*
-
-## 📦 Getting Started
-
-### 1. Clone the repo
 
 ```bash
 git clone https://github.com/your-username/password-validation-app.git
 cd password-validation-app
+```bash
+npm install
+npm run dev
+
+## 📁 Folder Structure
+password-validation-app/
+├── public/
+├── src/
+│ ├── components/
+│ │ └── PasswordValidator.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+
+
+
+
+## 🛠️ Built With
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
